@@ -1,7 +1,77 @@
-/*  your css code here. If applicable */
-.header{
-	background-color:#011e29;
-	padding:5px;
-	text-align:center;
-	color:white;
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #f5f5f5; /* Background color for the body */
+    }
+
+    .header {
+      background-color: #011e29; /* Background color for the header */
+      color: #fff; /* White text color for contrast */
+      padding: 20px 0; /* Padding for top and bottom */
+      text-align: center; /* Center align text */
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+		
+    }
+
+    .section {
+      /* border: 1px solid #ccc; */
+		background-color: #fff;
+      padding: 20px;
+      width: 300px;
+		font-size:14px;
+		height: 240px;
+		box-sizing: border-box;
+		border-radius: 30px
+    }
+	  .sect {
+		background-color: #fff;
+      padding: 20px;
+      width: 180px;
+		font-size:14px;
+		height: 400px;
+		box-sizing: border-box;
+		border-radius: 30px
+	  }
+
+    .latest-news-section {
+		background-color: #fff; /* Background color for the latest news section */
+	    padding: 10px; /* Padding inside the section */
+	    width: 210px; /* Full width of the section */
+		height: 170px;
+		font-size: 15px;
+	    box-sizing: border-box;
+		border-radius: 30px/* Includes padding in the width */
+    }
+
+    .latest-news {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .latest-news li {
+      margin-bottom: 10px; /* Space between list items */
+    }
+
+    /* .main-article {
+      /* text-align: center; */
+    /* }  */
+	  .pictorial-news-section {
+  text-align: center;
+  /* other styles */
 }
+
+    .pictorial-news img { 
+		width:120px;
+		text-align: start;
+    }
